@@ -24,9 +24,7 @@ int main(){
         if(x % y != 0){
             a = x%y;
 
-//            y = x % y;
             x = y;
-//            y = x%y;
             y = a;
 
             printf("a:%d\nx:%d\ny:%d\n", a, x, y);
