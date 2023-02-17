@@ -5,7 +5,7 @@
 int main(){
     int x, y, a;
     
-    printf("enter your integers that you want to found their gcd\n");
+    printf("enter your integers that you want to find their gcd\n");
     scanf("%d %d", &x, &y);
    
     int first_num[2] = {x, y};
